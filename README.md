@@ -61,10 +61,16 @@
         max-width:100%, each badge claims the full column and they stack.
         Pinning the height makes the layout deterministic either way. -->
 <div align="center">
-<a href="https://www.linkedin.com/in/ujjwalkumarpm/"><img height="28" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="https://ujjwalkumarr.vercel.app"><img height="28" src="https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=vercel&logoColor=A78BFA&labelColor=0A101F" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://ujjwalkumar.designfolio.me"><img height="28" src="https://img.shields.io/badge/Designfolio-0A101F?style=for-the-badge&logo=figma&logoColor=22D3EE&labelColor=0A101F" alt="Designfolio" /></a>&nbsp;&nbsp;<a href="mailto:ujjwalkumarjob1@gmail.com"><img height="28" src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/ujjwalkumarpm/"><img height="28" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="https://ujjwalkumarr.vercel.app"><img height="28" src="https://img.shields.io/badge/Portfolio-1B2942?style=for-the-badge&logo=vercel&logoColor=A78BFA&labelColor=1B2942" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://ujjwalkumar.designfolio.me"><img height="28" src="https://img.shields.io/badge/Designfolio-1B2942?style=for-the-badge&logo=figma&logoColor=22D3EE&labelColor=1B2942" alt="Designfolio" /></a>&nbsp;&nbsp;<a href="mailto:ujjwalkumarjob1@gmail.com"><img height="28" src="https://img.shields.io/badge/Email-1B2942?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=1B2942" alt="Email" /></a>
 </div>
 
-<!-- LinkedIn is the one badge on brand blue rather than the panel colour.
+<!-- Badges sit on #1B2942, NOT the banner's #0A101F panel colour. The Master
+     Prompt says to use your background colour, but that background is the
+     banner's own panel -- and it is within a few points of GitHub's dark page
+     (#0d1117), so the badges lost their edges entirely and read as loose icons
+     floating on the page. #1B2942 is a chip on white and a chip on near-black.
+
+     LinkedIn is the one badge on brand blue rather than the panel colour.
      Shields.io has a documented bug: the LinkedIn glyph renders ONLY on
      #0A66C2 — give it any custom colour and the logo silently vanishes,
      leaving just the word. Every other logo here recolours fine.
