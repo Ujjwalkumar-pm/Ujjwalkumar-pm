@@ -52,11 +52,16 @@
 </picture>
 </div>
 
-<!-- Each badge stays on ONE line. Split across lines the way the setup guide
-     prints them, GitHub turns the soft line breaks into <br> and the badges
-     stack vertically instead of sitting in a row. -->
+<!-- Two things keep this a row rather than a column:
+     1. Each badge on ONE line. Split across lines the way the setup guide
+        prints them, GitHub turns the soft line breaks into <br>.
+     2. An explicit height on each <img>. Shields SVGs go through GitHub's camo
+        proxy, which can serve them without resolvable intrinsic dimensions; the
+        browser then falls back to a default replaced-element box and, with
+        max-width:100%, each badge claims the full column and they stack.
+        Pinning the height makes the layout deterministic either way. -->
 <div align="center">
-<a href="https://www.linkedin.com/in/ujjwalkumarpm/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="https://ujjwalkumarr.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=vercel&logoColor=A78BFA&labelColor=0A101F" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://ujjwalkumar.designfolio.me"><img src="https://img.shields.io/badge/Designfolio-0A101F?style=for-the-badge&logo=figma&logoColor=22D3EE&labelColor=0A101F" alt="Designfolio" /></a>&nbsp;&nbsp;<a href="mailto:ujjwalkumarjob1@gmail.com"><img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/ujjwalkumarpm/"><img height="28" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="https://ujjwalkumarr.vercel.app"><img height="28" src="https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=vercel&logoColor=A78BFA&labelColor=0A101F" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://ujjwalkumar.designfolio.me"><img height="28" src="https://img.shields.io/badge/Designfolio-0A101F?style=for-the-badge&logo=figma&logoColor=22D3EE&labelColor=0A101F" alt="Designfolio" /></a>&nbsp;&nbsp;<a href="mailto:ujjwalkumarjob1@gmail.com"><img height="28" src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" /></a>
 </div>
 
 <!-- LinkedIn is the one badge on brand blue rather than the panel colour.
