@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+banner/preview_*.png
+banner/shot_*.png
+banner/strip*.png
+banner/p6*.png
+banner/p7*.png
+banner/crop_tight.png
+banner/logos_preview.png
+banner/seg_probe.py
+banner/lum_probe.py
+banner/portrait_tone.npy
