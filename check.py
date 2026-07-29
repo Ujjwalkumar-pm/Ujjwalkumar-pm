@@ -107,9 +107,13 @@ def check_readme():
     # so index() found that one first and the ordering test failed on a README
     # that was perfectly correct. Strip comments and assert the tags are gone.
     stripped = re.sub(r"<!--.*?-->", "", md, flags=re.S)
-    check("stats cards commented out",
-          "YOUR-INSTANCE" not in stripped and "YOUR-INSTANCE" in md,
-          "2 <img> live only inside the comment")
+    live_cards = stripped.count("vercel.app/api")
+    check("stats cards not live yet (need PAT_1)",
+          live_cards == 0 and "vercel.app/api" in md,
+          "both <img> sit inside the comment")
+    check("stats point at the self-hosted instance",
+          "github-readme-stats-tau-ruddy-95.vercel.app" in md,
+          "own instance, not the public one")
     check("no live public-instance URL",
           "github-readme-stats.vercel.app" not in md, "none")
 

@@ -29,7 +29,8 @@
        2. vercel.com/ujjwalkumarpm/github-readme-stats/settings/environment-variables
           Add:  Name = PAT_1   Value = <the token>   Environment = Production
        3. Deployments tab → the latest → ⋯ → Redeploy
-       4. Delete the two comment markers below (the bare <!-- and --> lines).
+       4. Uncomment the block below by deleting the two comment-marker lines
+          that wrap it.
 
      Verify first with:
        https://github-readme-stats-tau-ruddy-95.vercel.app/api?username=Ujjwalkumar-pm
