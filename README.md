@@ -12,23 +12,32 @@
 </div>
 
 <!-- ─────────────────────────────────────────────────────────────────────────
-     STATS CARDS — enabled by a 20-minute one-time setup, then uncomment.
+     STATS CARDS — instance is DEPLOYED. One step left, then uncomment below.
 
-     These are deliberately OFF rather than pointed at the public
-     github-readme-stats instance. That instance is shared by thousands of
-     users and was returning HTTP 503 when this README was written; a card that
-     renders "API rate limit exceeded" on your profile is worse than no card.
+     Your own instance is live and already wired into the URLs below:
+         https://github-readme-stats-tau-ruddy-95.vercel.app
 
-     To turn them on:
-       1. github.com/settings/tokens → Tokens (classic) → Generate new (classic)
-          Note: readme-stats · Expiration: No expiration · Scope: repo
-          Copy it immediately — GitHub shows it once. Treat it as a password.
-       2. Your fork is already made: github.com/Ujjwalkumar-pm/github-readme-stats
-       3. vercel.com → Sign in with GitHub → Hobby (free) → Add New… → Project
-          → import the fork → leave every build setting alone
-       4. Environment Variables → name PAT_1, value = the token → Deploy
-       5. Replace YOUR-INSTANCE below with your deployment host, then delete
-          this comment's opening and closing markers.
+     It currently answers: "No GitHub API tokens found. Please add an env
+     variable called PAT_1 with your GitHub API token in vercel." That token is
+     the one thing that cannot be automated — it is a credential, and it must
+     not pass through a chat log or a repo.
+
+     TO FINISH (about 3 minutes):
+       1. github.com/settings/tokens  →  Tokens (classic)  →  Generate new (classic)
+          Note: readme-stats · Expiration: No expiration · Scope: tick "repo"
+          Copy it immediately — GitHub shows it exactly once.
+       2. vercel.com/ujjwalkumarpm/github-readme-stats/settings/environment-variables
+          Add:  Name = PAT_1   Value = <the token>   Environment = Production
+       3. Deployments tab → the latest → ⋯ → Redeploy
+       4. Delete the two comment markers below (the bare <!-- and --> lines).
+
+     Verify first with:
+       https://github-readme-stats-tau-ruddy-95.vercel.app/api?username=Ujjwalkumar-pm
+     It should render a card instead of the "Something went wrong" message.
+
+     These stay commented until then, deliberately: a card that renders an error
+     on your profile is worse than no card. The public instance is not an option
+     either — it returned HTTP 503 on every attempt while this was built.
 
      hide_rank=true is intentional: the letter grade is weighted by stars and
      followers, so a newer account sits at "C" regardless of how much it ships.
@@ -36,8 +45,8 @@
 ────────────────────────────────────────────────────────────────────────── -->
 <!--
 <div align="center">
-<img width="49%" src="https://YOUR-INSTANCE.vercel.app/api?username=Ujjwalkumar-pm&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="stats" />
-<img width="49%" src="https://YOUR-INSTANCE.vercel.app/api/top-langs/?username=Ujjwalkumar-pm&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="top langs" />
+<img width="49%" src="https://github-readme-stats-tau-ruddy-95.vercel.app/api?username=Ujjwalkumar-pm&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=22D3EE&icon_color=A78BFA&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="stats" />
+<img width="49%" src="https://github-readme-stats-tau-ruddy-95.vercel.app/api/top-langs/?username=Ujjwalkumar-pm&layout=compact&langs_count=8&hide_border=true&title_color=22D3EE&text_color=94A3B8&bg_color=0A101F&card_width=500" alt="top langs" />
 </div>
 -->
 
