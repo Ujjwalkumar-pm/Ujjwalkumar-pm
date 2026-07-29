@@ -1,0 +1,5 @@
+# This repo exists to render a profile page, not to represent what I write.
+# Without this, GitHub reports it as 100% Python -- the banner generator is a
+# build tool, and the SVGs are its output, so neither belongs in language stats.
+banner/**   linguist-vendored
+*.svg       linguist-generated

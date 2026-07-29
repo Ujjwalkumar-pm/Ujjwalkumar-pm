@@ -52,22 +52,11 @@
 </picture>
 </div>
 
+<!-- Each badge stays on ONE line. Split across lines the way the setup guide
+     prints them, GitHub turns the soft line breaks into <br> and the badges
+     stack vertically instead of sitting in a row. -->
 <div align="center">
-<a href="https://www.linkedin.com/in/ujjwalkumarpm/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-&nbsp;&nbsp;
-<a href="https://ujjwalkumarr.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=vercel&logoColor=A78BFA&labelColor=0A101F" alt="Portfolio" />
-</a>
-&nbsp;&nbsp;
-<a href="https://ujjwalkumar.designfolio.me">
-  <img src="https://img.shields.io/badge/Designfolio-0A101F?style=for-the-badge&logo=figma&logoColor=22D3EE&labelColor=0A101F" alt="Designfolio" />
-</a>
-&nbsp;&nbsp;
-<a href="mailto:ujjwalkumarjob1@gmail.com">
-  <img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" />
-</a>
+<a href="https://www.linkedin.com/in/ujjwalkumarpm/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="https://ujjwalkumarr.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0A101F?style=for-the-badge&logo=vercel&logoColor=A78BFA&labelColor=0A101F" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://ujjwalkumar.designfolio.me"><img src="https://img.shields.io/badge/Designfolio-0A101F?style=for-the-badge&logo=figma&logoColor=22D3EE&labelColor=0A101F" alt="Designfolio" /></a>&nbsp;&nbsp;<a href="mailto:ujjwalkumarjob1@gmail.com"><img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=0A101F" alt="Email" /></a>
 </div>
 
 <!-- LinkedIn is the one badge on brand blue rather than the panel colour.
@@ -77,4 +66,3 @@
 
      No GitHub badge: it is already circular on this page. -->
 
-<!-- profile -->
