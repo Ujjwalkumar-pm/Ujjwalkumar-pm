@@ -71,7 +71,7 @@
         max-width:100%, each badge claims the full column and they stack.
         Pinning the height makes the layout deterministic either way. -->
 <div align="center">
-<a href="https://www.linkedin.com/in/ujjwalkumarpm/"><img height="28" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="https://www.ujjwalkumar.co.in"><img height="28" src="https://img.shields.io/badge/Portfolio-1B2942?style=for-the-badge&logo=vercel&logoColor=A78BFA&labelColor=1B2942" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://ujjwalkumar.designfolio.me"><img height="28" src="https://img.shields.io/badge/Designfolio-1B2942?style=for-the-badge&logo=figma&logoColor=22D3EE&labelColor=1B2942" alt="Designfolio" /></a>&nbsp;&nbsp;<a href="mailto:ujjwalkumarjob1@gmail.com"><img height="28" src="https://img.shields.io/badge/Email-1B2942?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=1B2942" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/ujjwalkumarpm/"><img height="28" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="https://www.ujjwalkumar.co.in"><img height="28" src="https://img.shields.io/badge/Portfolio-1B2942?style=for-the-badge&logo=vercel&logoColor=A78BFA&labelColor=1B2942" alt="Portfolio" /></a>&nbsp;&nbsp;<a href="https://ujjwalkumar.designfolio.me"></a>&nbsp;&nbsp;<a href="mailto:ujjwalkumarjob1@gmail.com"><img height="28" src="https://img.shields.io/badge/Email-1B2942?style=for-the-badge&logo=gmail&logoColor=10B981&labelColor=1B2942" alt="Email" /></a>
 </div>
 
 <!-- Badges sit on #1B2942, NOT the banner's #0A101F panel colour. The Master
